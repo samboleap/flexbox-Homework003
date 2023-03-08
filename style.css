@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Kantumruy';
+  src: url('https://fonts.googleapis.com/css2?family=Kantumruy:wght@400;700&display=swap');
+} 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kantumruy', sans-serif;
+}
+.header{
+    background-color: black;
+    font-size: 30px;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.hero-section{
+    background-image: url(./img/island-3542290_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.btn{
+    width: 110px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.content{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial;
+}
+.content h1{
+    padding-bottom: 10px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.grid-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.grid-content img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+.display-grid{
+    display: flex;
+    grid-template-columns: 300px 1fr;
+    justify-content: space-around;
+}
+.pic1 img{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 50px;
+   
+}
+.pic2 img{
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 50px;
+  
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    width: 450px;
+    padding-top: 100px;
+}
+.text h2{
+  text-align: center;
+  font-size: 35px;
+
+}
+.text h4{
+  text-align: center;
+  font-size: 25px;
+}
+.text p{
+  text-align: center;
+  font-size: 20px;
+}
+
+.service{
+    padding-top: 50px;
+}
+.service h1{
+    text-align: center;
+    padding-bottom: 25px;
+    color: blue;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+}
+.service-container img{
+    width: 80px;
+    margin-left: 50px;
+}
+.sidebar-container{
+    display: flex;
+    justify-content: space-around;
+}
+.sidebar-link{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 100px;
+
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
+.sidebar-link i{
+    font-size: 50px;
+    color: blue;
+}
+.sidebar-link div{
+  font-size: 20px;
+  color: blue;
+}
+.friends-gallery h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: blue;
+}
+.gallery{
+    display: flex;
+    flex-grow: 1;
+   
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery li{
+    height: 40vh; 
+    flex-grow: 1;
+    list-style: none;
+}
+.gallery img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
